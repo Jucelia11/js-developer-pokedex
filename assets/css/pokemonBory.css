@@ -1,33 +1,33 @@
-.cabecario-button {
+.nave-button {
     background-color: transparent;
     border: none;
 }
 
-.corpo {
+.bory {
     display: grid;
     height: 100vh;
     /* grid-template-rows: 40vh 40vh 20vh; */
     grid-template-rows: 1.5fr 2fr;
 }
 
-.corpo-nome {
+.bory-nome {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.corpo-nome-container {
+.bory-nome-container {
     max-width: 90vw;
     width: 100vw;
     text-align: center;
 }
 
-.corpo-img {
+.bory-img {
     height: 250px;
     width: 250px;
 }
 
-.corpo-nome-detalhes {
+.bory-nome-detalhes {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
@@ -35,24 +35,24 @@
     color: white;
 }
 
-.corpo-nome-detalhes-cabecalho {
+.bory-nome-detalhes-nave {
     height: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.corpo-nome-detalhes-cabecalho h1 {
+.bory-nome-detalhes-nave h1 {
     color: white;
     font-weight: bold;
     font-size: 25px;
 }
 
-.corpo-nome-detalhes-cabecalho h1::first-letter {
+.bory-nome-detalhes-nave h1::first-letter {
     text-transform: uppercase;
 }
 
-.corpo-nome-detalhes-cabecalho div button {
+.bory-nome-detalhes-nave div button {
     border-radius: 10px;
     background-color: transparent;
     border: white 1px solid;
@@ -61,7 +61,7 @@
     padding: 5px;
 }
 
-.corpo-nome-one {
+.bory-nome-one {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -70,37 +70,37 @@
     flex: 1;
 }
 
-.corpo-nome-one__abilidades {
+.bory-nome-one__abilidades {
     max-width: 90vw;
     width: 100vw;
 }
 
-.corpo-nome-one__abilidades h2 {
+.bory-nome-one__abilidades h2 {
     font-size: 25px;
     font-weight: bold;
     margin: 20px 0;
 }
 
-.corpo-nome-one__abilidades ul {
+.bory-nome-one__abilidades ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 50%;
 }
 
-.corpo-nome-one__abilidades ul li {
+.bory-nome-one__abilidades ul li {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.corpo-nome-one__abilidades-texto-claro {
+.bory-nome-one__abilidades-texto-claro {
     font-size: 18px;
     line-height: 18px;
     color: lightgray;
 }
 
-.corpo-nome-one__abilidades-texto-escuro {
+.bory-nome-one__abilidades-texto-escuro {
     font-size: 18px;
     line-height: 18px;
     color: black;

@@ -3,15 +3,15 @@
     box-sizing: border-box;
 }
 
-.corpo-principal {
-    background-color: lightgreen;
+.bory-principal {
+    background-color: rgba(121, 228, 228, 0.623);
     display: flex;
     flex-direction: column;
     height: 100vh;
     border-radius: 20px 20px 0px 0px;
 }
 
-.cabecario {
+.nave {
     height: 75px;
     border-top: 1px;
     display: flex;
@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-.cabecario div {
+.nave div {
     height: 30px;
     min-width: 90vw;
     display: flex;
@@ -28,14 +28,14 @@
     align-items: top;
 }
 
-.cabecario-voltar {
+.nave-voltar {
     text-decoration: none;
 }
 
-.cabecario-voltar-img {
+.nave-voltar-img {
     height: 20px;
 }
 
-.cabecario-button-img {
+.nave-button-img {
     height: 20px;
 }
